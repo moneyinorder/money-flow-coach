@@ -48,7 +48,7 @@ export const checklistData: Checklist[] = [
             title: "Pay off all high-interest debt",
             description: "Anything over 10% interest rate.",
             details:
-              "High-interest debt (credit cards, payday loans, etc.) costs you significantly more than any investment returns you might earn. Focus on paying these off aggressively using either the avalanche method (highest interest first) or snowball method (smallest balance first). The snowball method helps you notch a few wins and stay motivated whereas the avalanche method is the mathematically optimal approach. Both are great, and for both, try to earmark a set amount of money for paying down debt each month as part of your budget.",
+              "High-interest debt (credit cards, payday loans, etc.) costs you significantly more than any investment returns you might earn. \n Focus on paying these off aggressively using either the avalanche method (highest interest first) or snowball method (smallest balance first). The snowball method helps you notch a few wins and stay motivated whereas the avalanche method is the mathematically optimal approach. Both are great, and for both, try to earmark a set amount of money for paying down debt each month as part of your budget.",
           },
           {
             id: "emergency-fund-full",
