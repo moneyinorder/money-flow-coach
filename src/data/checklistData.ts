@@ -8,7 +8,21 @@ export interface ChecklistSection {
   items: ChecklistItemData[];
 }
 
-export const checklistData: ChecklistSection[] = [
+export interface Checklist {
+  id: string;
+  title: string;
+  description: string;
+  subtitle: string;
+  sections: ChecklistSection[];
+}
+
+export const checklistData: Checklist[] = [
+  {
+    id: "personal-finance",
+    title: "Personal Finance Checklist",
+    description: "Your roadmap to financial freedom",
+    subtitle: "Build your financial foundation step by step",
+    sections: [
   {
     id: "foundation",
     title: "🛡️ Foundation",
@@ -145,6 +159,8 @@ export const checklistData: ChecklistSection[] = [
           "At this stage, consider diversification into real estate (rental properties, REITs), starting or investing in businesses, or other alternative investments. These typically require more active management and higher risk tolerance. Consider consulting with a fee-only financial advisor.",
         isOptional: true,
       },
+    ],
+  },
     ],
   },
 ];
