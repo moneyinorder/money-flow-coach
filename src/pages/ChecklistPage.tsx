@@ -58,6 +58,19 @@ const ChecklistPage = () => {
     });
   };
 
+  const markSectionComplete = (sectionId: string) => {
+    const section = checklist?.sections.find((s) => s.id === sectionId);
+    if (!section) return;
+
+    setCompletedItems((prev) => {
+      const newSet = new Set(prev);
+      section.items.forEach((item) => {
+        newSet.add(item.id);
+      });
+      return newSet;
+    });
+  };
+
   if (!checklist) {
     return null;
   }
@@ -121,6 +134,10 @@ const ChecklistPage = () => {
                 .slice(0, sectionIndex)
                 .reduce((acc, s) => acc + s.items.length, 0) + 1;
 
+            const sectionCompletedCount = section.items.filter((item) =>
+              completedItems.has(item.id)
+            ).length;
+
             return (
               <ChecklistSection
                 key={section.id}
@@ -128,6 +145,9 @@ const ChecklistPage = () => {
                 subtitle={section.subtitle}
                 colorScheme={section.colorScheme}
                 icon={sectionIcons[section.colorScheme]}
+                completedCount={sectionCompletedCount}
+                totalCount={section.items.length}
+                onMarkAllComplete={() => markSectionComplete(section.id)}
               >
                 {section.items.map((item) => {
                   const currentStep = stepCounter++;

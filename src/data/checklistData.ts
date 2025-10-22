@@ -27,7 +27,7 @@ export const checklistData: Checklist[] = [
     sections: [
       {
         id: "foundation",
-        title: "🛡️ Foundation",
+        title: "Foundation",
         subtitle: "Build your financial safety net",
         colorScheme: "foundation",
         items: [
@@ -63,7 +63,7 @@ export const checklistData: Checklist[] = [
       },
       {
         id: "growth",
-        title: "📈 Growth",
+        title: "Growth",
         subtitle: "Accelerate your wealth building",
         colorScheme: "growth",
         items: [
@@ -103,7 +103,7 @@ export const checklistData: Checklist[] = [
       },
       {
         id: "optimize",
-        title: "🚀 Optimize",
+        title: "Optimize",
         subtitle: "Maximize your financial potential",
         colorScheme: "optimize",
         items: [
@@ -174,7 +174,7 @@ export const checklistData: Checklist[] = [
     sections: [
       {
         id: "before-children",
-        title: "🛡️ Before Having Children",
+        title: "Before Having Children",
         subtitle: "Prepare your finances before baby arrives",
         colorScheme: "foundation",
         items: [
@@ -203,7 +203,7 @@ export const checklistData: Checklist[] = [
       },
       {
         id: "after-birth",
-        title: "👶 After Child is Born",
+        title: "After Child is Born",
         subtitle: "Essential financial steps for new parents",
         colorScheme: "growth",
         items: [
@@ -260,7 +260,7 @@ export const checklistData: Checklist[] = [
       },
       {
         id: "optimize-children",
-        title: "🚀 Optimize",
+        title: "Optimize",
         subtitle: "Advanced strategies for your child's financial future",
         colorScheme: "optimize",
         items: [
@@ -601,7 +601,7 @@ export const checklistData: Checklist[] = [
     sections: [
       {
         id: "legal-estate-planning",
-        title: "🏛️ Legal and Estate Planning",
+        title: "Legal and Estate Planning",
         subtitle: "Establish your legal foundation",
         colorScheme: "foundation",
         items: [
@@ -639,7 +639,7 @@ export const checklistData: Checklist[] = [
       },
       {
         id: "powers-directives",
-        title: "⚖️ Powers of Attorney and Healthcare Directives",
+        title: "Powers of Attorney and Healthcare Directives",
         subtitle: "Designate trusted decision-makers",
         colorScheme: "foundation",
         items: [
@@ -676,7 +676,7 @@ export const checklistData: Checklist[] = [
       },
       {
         id: "beneficiaries-documentation",
-        title: "📋 Beneficiaries and Documentation",
+        title: "Beneficiaries and Documentation",
         subtitle: "Organize critical information for your heirs",
         colorScheme: "growth",
         items: [
@@ -721,7 +721,7 @@ export const checklistData: Checklist[] = [
       },
       {
         id: "long-term-care",
-        title: "🏥 Long-term Care Planning",
+        title: "Long-term Care Planning",
         subtitle: "Prepare for potential care needs",
         colorScheme: "growth",
         items: [
@@ -769,7 +769,7 @@ export const checklistData: Checklist[] = [
       },
       {
         id: "financial-security",
-        title: "💰 Financial Security Review",
+        title: "Financial Security Review",
         subtitle: "Ensure your finances are in order",
         colorScheme: "optimize",
         items: [
