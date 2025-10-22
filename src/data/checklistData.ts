@@ -418,4 +418,178 @@ export const checklistData: Checklist[] = [
       },
     ],
   },
+  {
+    id: "pet-ownership",
+    title: "Pet Ownership",
+    description: "Financial planning for responsible pet care",
+    subtitle: "Prepare for the costs and joys of pet parenthood",
+    tags: ["pet", "dog", "cat", "pets", "animal", "pet ownership", "pet expenses"],
+    sections: [
+      {
+        id: "preparing",
+        title: "Preparing for a Pet",
+        subtitle: "Make sure you're ready for the commitment",
+        colorScheme: "foundation",
+        items: [
+          {
+            id: "assess-readiness",
+            title: "Assess your lifestyle and readiness",
+            description: "Pets are a 10-20+ year commitment requiring time and resources.",
+            details:
+              "Consider honestly:\n\n• **Time commitment**: Dogs need daily walks, attention, and training. Cats are more independent but still need daily care.\n• **Living situation**: Does your lease allow pets? Do you have adequate space?\n• **Travel habits**: Who will care for your pet when you're away?\n• **Career stability**: Can you afford unexpected vet bills?\n• **Life stage**: Are major changes coming (moving, having children)?\n\nPets bring immense joy but require consistent care regardless of your circumstances.",
+          },
+          {
+            id: "research-breeds",
+            title: "Research breeds and temperaments",
+            description: "Different breeds have vastly different needs and costs.",
+            details:
+              "Choose a pet that fits your lifestyle:\n\n• **Energy level**: High-energy breeds need more exercise and stimulation\n• **Size matters**: Larger dogs cost significantly more (food, medication doses, boarding)\n• **Health predispositions**: Some breeds are prone to expensive health issues (hip dysplasia, heart conditions, breathing problems in flat-faced breeds)\n• **Grooming needs**: Professional grooming can cost $50-100+ per visit\n• **Lifespan**: Smaller dogs typically live longer (12-18 years) vs. large breeds (8-12 years)\n\nResearch specific breeds thoroughly and consider adopting mixed breeds, which often have fewer genetic health issues.",
+          },
+          {
+            id: "budget-initial-costs",
+            title: "Budget for initial costs",
+            description: "Getting a pet requires significant upfront investment.",
+            details:
+              "Initial costs typically include:\n\n• **Adoption fee**: $50-500 (often includes spay/neuter, initial vaccines)\n• **Purchase from breeder**: $500-3,000+ depending on breed\n• **Spay/neuter**: $200-500 if not included\n• **Initial vet visit**: $100-300 (exam, vaccines, preventatives)\n• **Supplies**: Crate, bed, bowls, collar, leash, toys ($200-500)\n• **Microchip**: $25-50\n• **Training classes**: $100-300 for basic obedience\n\nTotal initial cost: $1,000-5,000+ depending on choices made.",
+          },
+          {
+            id: "budget-ongoing-costs",
+            title: "Budget for ongoing monthly costs",
+            description: "Pets require consistent expenses that add up significantly.",
+            details:
+              "Monthly costs vary by pet size and type:\n\n**Dogs:**\n• Food: $30-80/month (more for large breeds or special diets)\n• Preventatives: $20-60/month (flea, tick, heartworm)\n• Routine vet care: $40-80/month (averaged annually)\n• Grooming: $0-100/month (breed dependent)\n• Toys/supplies: $20-40/month\n\n**Average: $110-360/month for dogs, $50-150/month for cats**\n\n**Annual cost: $1,300-4,300 for dogs, $600-1,800 for cats**\n\nThis doesn't include unexpected vet emergencies, which can cost thousands.",
+          },
+        ],
+      },
+      {
+        id: "getting-pet",
+        title: "Getting Your Pet",
+        subtitle: "Navigate the adoption or purchase process",
+        colorScheme: "growth",
+        items: [
+          {
+            id: "adopt-vs-buy",
+            title: "Decide: Adopt or buy from a breeder?",
+            description: "Both options have different costs and considerations.",
+            details:
+              "**Adoption (Shelter/Rescue):**\n• **Pros**: Lower cost ($50-500), saves a life, often includes spay/neuter and initial vaccines, adult temperament known\n• **Cons**: Unknown health history, may have behavioral issues, less choice in age/breed\n\n**Reputable Breeder:**\n• **Pros**: Known health history, predictable temperament, can choose specific breed, puppy/kitten from birth\n• **Cons**: Much more expensive ($1,000-3,000+), doesn't help shelter animals, wait lists common\n\n**Avoid pet stores and puppy mills** - they often source from inhumane breeding operations and dogs may have serious health/behavioral problems.",
+            branches: {
+              question: "Which path are you considering?",
+              options: [{ label: "Adopting from shelter/rescue" }, { label: "Buying from breeder" }],
+            },
+          },
+          {
+            id: "vet-initial-exam",
+            title: "Schedule an initial vet exam within 72 hours",
+            description: "Early detection of health issues is critical.",
+            details:
+              "Get your new pet examined by a vet within 72 hours of adoption/purchase:\n\n• **Health screening**: Check for parasites, infections, congenital issues\n• **Vaccination plan**: Ensure they're up to date or create a schedule\n• **Preventative care**: Start flea, tick, and heartworm prevention\n• **Baseline health record**: Establishes their normal vitals and condition\n• **Adoption contracts**: Many require vet visit within 72 hours\n\nThis visit typically costs $100-300 but can save thousands by catching issues early.",
+          },
+          {
+            id: "pet-proof-home",
+            title: "Pet-proof your home",
+            description: "Prevent accidents and expensive damage.",
+            details:
+              "Protect both your pet and your belongings:\n\n• **Remove hazards**: Toxic plants, chemicals, small objects, electrical cords\n• **Secure trash**: Pets can ingest dangerous items\n• **Protect valuables**: Put away items that could be chewed or broken\n• **Block off areas**: Use baby gates to limit access while training\n• **Outdoor safety**: Secure fencing, check for escape routes\n\nPreventing one emergency vet visit pays for all pet-proofing efforts.",
+          },
+          {
+            id: "establish-routine",
+            title: "Establish a care routine immediately",
+            description: "Consistency helps with training and bonding.",
+            details:
+              "Create structure from day one:\n\n• **Feeding schedule**: Same times daily, appropriate portions\n• **Potty breaks**: Regular schedule (especially for puppies - every 2-3 hours)\n• **Exercise routine**: Daily walks, playtime\n• **Training time**: Short, consistent sessions\n• **Bonding activities**: Gentle play, grooming, quiet time together\n\nConsistent routines reduce behavioral problems and vet bills related to stress or anxiety.",
+          },
+        ],
+      },
+      {
+        id: "ongoing-ownership",
+        title: "Ongoing Pet Ownership",
+        subtitle: "Day-to-day care and healthcare management",
+        colorScheme: "growth",
+        items: [
+          {
+            id: "regular-vet-care",
+            title: "Maintain regular veterinary care",
+            description: "Preventative care is far cheaper than emergency treatment.",
+            details:
+              "Stay on top of routine healthcare:\n\n• **Annual wellness exam**: $50-200 (more for seniors - twice yearly)\n• **Vaccinations**: Core vaccines annually or per vet recommendation\n• **Dental cleaning**: $300-800 every 1-2 years (anesthesia required)\n• **Parasite prevention**: Monthly flea, tick, and heartworm medication\n• **Blood work**: Annually for seniors to catch issues early\n\nSkipping preventative care often leads to expensive emergency situations. A $200 annual exam can prevent a $5,000 emergency.",
+          },
+          {
+            id: "quality-nutrition",
+            title: "Invest in quality nutrition",
+            description: "Good food prevents expensive health problems long-term.",
+            details:
+              "Don't cheap out on pet food:\n\n• **Quality matters**: Better food means better health, fewer vet visits, smaller portions needed\n• **Life stage appropriate**: Puppy/kitten, adult, senior formulas have different needs\n• **Avoid bargain brands**: Often contain fillers, lower-quality protein, insufficient nutrients\n• **Special diets**: Some pets need prescription food for allergies, sensitivities, or health conditions ($50-100/month)\n\nSpending an extra $20-30/month on quality food can save thousands in future health problems.",
+          },
+          {
+            id: "training-socialization",
+            title: "Invest in training and socialization",
+            description: "Behavioral problems are a leading cause of pet surrender.",
+            details:
+              "Training is not optional:\n\n• **Basic obedience**: Prevents dangerous situations and property damage\n• **Socialization**: Expose to people, other animals, environments while young\n• **Professional help**: Don't hesitate to hire trainer for behavioral issues ($50-150/session)\n• **Consistency**: Everyone in household must use same commands and rules\n\nPoor behavior leads to damaged property, vet bills from anxiety-related issues, and in worst cases, liability for bites or injuries. Training is an investment, not an expense.",
+          },
+          {
+            id: "exercise-enrichment",
+            title: "Provide adequate exercise and mental stimulation",
+            description: "Bored, under-exercised pets develop expensive problems.",
+            details:
+              "Physical and mental exercise prevents issues:\n\n• **Daily exercise**: Dogs need 30 minutes to 2 hours depending on breed/age\n• **Mental stimulation**: Puzzle toys, training, new experiences\n• **Consequences of insufficient exercise**: Destructive behavior, anxiety, obesity, expensive behavioral issues\n• **Cost-effective options**: Walking is free, DIY puzzle toys, rotate toy selection\n\nAn exercised, stimulated pet is a healthier, better-behaved pet with fewer vet bills.",
+          },
+        ],
+      },
+      {
+        id: "financial-planning",
+        title: "Financial Planning",
+        subtitle: "Prepare for the financial realities of pet ownership",
+        colorScheme: "optimize",
+        items: [
+          {
+            id: "emergency-fund",
+            title: "Build a pet emergency fund",
+            description: "Save $1,000-3,000 minimum for unexpected vet bills.",
+            details:
+              "Emergency vet visits are not a question of if, but when:\n\n• **Common emergencies**: Ingesting toxins, broken bones, bloat, infections, foreign object ingestion\n• **Typical costs**: $1,000-5,000+ for emergency surgery\n• **Start small**: Even $500 is better than nothing\n• **Keep separate**: Dedicated pet emergency fund in high-yield savings account\n• **Replenish**: After using it, prioritize rebuilding it\n\nWithout an emergency fund, you may face impossible choices about your pet's care.",
+          },
+          {
+            id: "pet-insurance-decision",
+            title: "Decide: Pet insurance or self-insure?",
+            description: "Weigh the pros and cons carefully for your situation.",
+            details:
+              "**Pet Insurance:**\n• **Cost**: $30-100/month depending on age, breed, coverage\n• **Pros**: Covers major emergencies (surgeries, cancer treatment, accidents), peace of mind, no need for large emergency fund\n• **Cons**: Monthly cost adds up ($360-1,200/year), many exclusions, pre-existing conditions not covered, deductibles and co-pays apply, premiums increase with age\n• **Best for**: Breeds prone to expensive conditions, owners without emergency fund\n\n**Self-Insurance (Investment Account):**\n• **Strategy**: Invest what insurance would cost in index funds\n• **Pros**: You keep unused money, investment growth, no claim denials, covers any pet need including end-of-life care\n• **Cons**: Requires discipline, need emergency fund first, early emergency could deplete fund\n• **Best for**: Multiple pets, healthy breeds, those with emergency fund\n\n**Hybrid approach**: Basic accident-only insurance ($15-30/month) + investment account for illness and routine care.",
+            branches: {
+              question: "What's your approach?",
+              options: [
+                { label: "Get comprehensive pet insurance" },
+                { label: "Self-insure with investment account" },
+                { label: "Hybrid: Basic insurance + savings" },
+              ],
+            },
+          },
+          {
+            id: "plan-end-of-life",
+            title: "Plan for end-of-life expenses",
+            description: "A difficult but necessary financial consideration.",
+            details:
+              "End-of-life care costs can be significant:\n\n• **Senior pet care**: Increased vet visits, medications, special diets ($100-300/month)\n• **Chronic condition management**: Diabetes, kidney disease, cancer treatment ($200-500+/month)\n• **Quality of life assessment**: Balance cost with pet's comfort - euthanasia is sometimes the kindest option\n• **Euthanasia cost**: $50-300 at vet, $200-500 for at-home service\n• **Cremation**: $50-200 private, $30-50 communal\n• **Burial**: Free at home (if legal), $500-3,000 at pet cemetery\n\nHaving funds set aside allows you to make decisions based on your pet's needs, not financial constraints. This is one of your final gifts to a beloved companion.",
+          },
+          {
+            id: "consider-care-coverage",
+            title: "Plan for care if you can't",
+            description: "Ensure your pet is cared for if something happens to you.",
+            details:
+              "Responsible pet ownership includes planning for contingencies:\n\n• **Pet guardian**: Designate someone to take your pet if you're unable to care for them\n• **Financial provision**: Consider leaving funds in your will for pet care\n• **Documentation**: Keep health records, care instructions, vet contacts accessible\n• **Pet trust**: For significant assets, legal pet trust ensures funds are used for pet care\n• **Emergency contacts**: Give trusted person keys and authorization to access your home for pet\n\nDiscuss plans with designated guardians and ensure they're willing and able to care for your pet.",
+            isOptional: true,
+          },
+          {
+            id: "budget-review",
+            title: "Review pet expenses regularly",
+            description: "Stay aware of actual costs and adjust as needed.",
+            details:
+              "Track and optimize pet spending:\n\n• **Monthly review**: Are you spending more than budgeted? Why?\n• **Annual assessment**: Calculate true annual cost including emergencies\n• **Cost reduction opportunities**: Bulk buying, generic medications, preventative care\n• **Quality vs. cost**: Don't sacrifice pet health to save money, but avoid unnecessary expenses\n• **Multiple pets**: Costs don't scale linearly - some expenses are per-pet (food, vet) while others are shared (toys, supplies)\n\nUnderstanding true costs helps you make informed decisions about future pets and care level.",
+            isOptional: true,
+          },
+        ],
+      },
+    ],
+  },
 ];
