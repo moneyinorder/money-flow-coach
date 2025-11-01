@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { ChecklistCard } from "@/components/ChecklistCard";
+import { MortgageCalculator } from "@/components/MortgageCalculator";
 import { checklistData } from "@/data/checklistData";
 import { ListChecks } from "lucide-react";
 
@@ -38,48 +39,51 @@ const Index = () => {
             <ListChecks className="w-12 h-12 mr-3" />
           </div>
           <h1 className="text-5xl font-bold mb-4 animate-slide-in-up">
-            Financial Checklists
+            Financial Checklists & Tools
           </h1>
           <p className="text-xl opacity-90">
-            Choose a checklist to start your journey to financial freedom
+            Checklists to guide your journey and tools to help you make informed decisions
           </p>
         </div>
       </header>
 
       {/* Main Content */}
       <main className="py-12 px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {checklistData.map((checklist) => {
-              const totalSteps = checklist.sections.reduce(
-                (acc, section) => acc + section.items.length,
-                0
-              );
-              const completedSteps = checklistProgress[checklist.id] || 0;
+        <div className="max-w-6xl mx-auto space-y-16">
+          {/* Checklists Section */}
+          <section>
+            <h2 className="text-3xl font-bold mb-6">Checklists</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {checklistData.map((checklist) => {
+                const totalSteps = checklist.sections.reduce(
+                  (acc, section) => acc + section.items.length,
+                  0
+                );
+                const completedSteps = checklistProgress[checklist.id] || 0;
 
-              return (
-                <ChecklistCard
-                  key={checklist.id}
-                  id={checklist.id}
-                  title={checklist.title}
-                  subtitle={checklist.subtitle}
-                  totalSteps={totalSteps}
-                  completedSteps={completedSteps}
-                  colorScheme="primary"
-                  recommended={checklist.id === "personal-finance"}
-                />
-              );
-            })}
-          </div>
-
-          {/* Empty State for future checklists */}
-          {checklistData.length === 1 && (
-            <div className="mt-12 text-center">
-              <p className="text-muted-foreground">
-                More checklists coming soon! 🚀
-              </p>
+                return (
+                  <ChecklistCard
+                    key={checklist.id}
+                    id={checklist.id}
+                    title={checklist.title}
+                    subtitle={checklist.subtitle}
+                    totalSteps={totalSteps}
+                    completedSteps={completedSteps}
+                    colorScheme="primary"
+                    recommended={checklist.id === "personal-finance"}
+                  />
+                );
+              })}
             </div>
-          )}
+          </section>
+
+          {/* Tools Section */}
+          <section>
+            <h2 className="text-3xl font-bold mb-6">Financial Tools</h2>
+            <div className="grid grid-cols-1 gap-6">
+              <MortgageCalculator />
+            </div>
+          </section>
         </div>
       </main>
     </div>
