@@ -10,12 +10,12 @@ import { useNavigate } from "react-router-dom";
 
 export default function CalculatorPage() {
   const navigate = useNavigate();
-  const [debtAmount, setDebtAmount] = useState("");
-  const [interestRate, setInterestRate] = useState("");
-  const [termYears, setTermYears] = useState("");
-  const [monthlySavings, setMonthlySavings] = useState("");
-  const [investmentReturn, setInvestmentReturn] = useState("");
-  const [taxRate, setTaxRate] = useState("");
+  const [debtAmount, setDebtAmount] = useState("300000");
+  const [interestRate, setInterestRate] = useState("6.5");
+  const [termYears, setTermYears] = useState("30");
+  const [monthlySavings, setMonthlySavings] = useState("3000");
+  const [investmentReturn, setInvestmentReturn] = useState("8");
+  const [taxRate, setTaxRate] = useState("25");
   const [result, setResult] = useState<{
     investingTotal: number;
     payingDebtTotal: number;
