@@ -265,7 +265,7 @@ export const checklistData: Checklist[] = [
             title: "Contribute to child's IRA when they have earned income",
             description: "Custodial Roth IRA for children with part-time jobs (typically 16+).",
             details:
-              "Once your child has earned income (part-time job, modeling, acting, or working at a family business), they can contribute to a Roth IRA. You can contribute up to their earned income or $7,000 (2024), whichever is less. Starting at 16 and contributing $3,000/year could grow to over $500,000 by retirement due to decades of tax-free compound growth.",
+              "Once your child has earned income (part-time job, acting, or working at a family business), they can contribute to a Roth IRA. You can contribute up to their earned income or $7,000 (2024), whichever is less. Starting at 16 and contributing $3,000/year could grow to over $500,000 by retirement due to decades of tax-free compound growth.",
             isOptional: true,
           },
           {
