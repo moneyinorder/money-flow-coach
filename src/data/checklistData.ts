@@ -424,7 +424,7 @@ export const checklistData: Checklist[] = [
             title: "Assess your lifestyle and readiness",
             description: "Pets are a 10-20+ year commitment requiring time and resources.",
             details:
-              "Consider honestly:\n\n• **Time commitment**: Dogs need daily walks, attention, and training. Cats are more independent but still need daily care.\n• **Living situation**: Does your lease allow pets? Do you have adequate space?\n• **Travel habits**: Who will care for your pet when you're away?\n• **Career stability**: Can you afford unexpected vet bills?\n• **Life stage**: Are major changes coming (moving, having children)?\n\nPets bring immense joy but require consistent care regardless of your circumstances.",
+              "Consider honestly:\n\n• **Time commitment**: Dogs need daily walks, attention, and training. Cats are more independent but still need daily care.\n• **Living situation**: Does your lease allow pets? Do you have adequate space?\n• **Travel habits**: Who will care for your pet when you're away?\n• **Financial stability**: Can you afford unexpected vet bills?\n• **Life stage**: Are major changes coming (moving, having children)?",
           },
           {
             id: "research-breeds",
@@ -481,7 +481,7 @@ export const checklistData: Checklist[] = [
             title: "Establish a care routine immediately",
             description: "Consistency helps with training and bonding.",
             details:
-              "Create structure from day one:\n\n• **Feeding schedule**: Same times daily, appropriate portions\n• **Potty breaks**: Regular schedule (especially for puppies - every 2-3 hours)\n• **Exercise routine**: Daily walks, playtime\n• **Training time**: Short, consistent sessions\n• **Bonding activities**: Gentle play, grooming, quiet time together\n\nConsistent routines reduce behavioral problems and vet bills related to stress or anxiety.",
+              "Create structure from day one:\n\n• **Feeding schedule**: Same times daily, appropriate portions\n• **Potty breaks**: Regular schedule (especially for puppies - every 2-3 hours)\n• **Exercise routine**: Daily walks, playtime\n• **Training time**: Short, consistent sessions\n• **Bonding activities**: Gentle play, grooming, quiet time together\n\nConsistent routines reduce behavioral problems.",
           },
         ],
       },
@@ -496,14 +496,14 @@ export const checklistData: Checklist[] = [
             title: "Maintain regular veterinary care",
             description: "Preventative care is far cheaper than emergency treatment.",
             details:
-              "Stay on top of routine healthcare:\n\n• **Annual wellness exam**: $50-200 (more for seniors - twice yearly)\n• **Vaccinations**: Core vaccines annually or per vet recommendation\n• **Dental cleaning**: $300-800 every 1-2 years (anesthesia required)\n• **Parasite prevention**: Monthly flea, tick, and heartworm medication\n• **Blood work**: Annually for seniors to catch issues early\n\nSkipping preventative care often leads to expensive emergency situations. A $200 annual exam can prevent a $5,000 emergency.",
+              "Stay on top of routine healthcare:\n\n• **Annual wellness exam**: $50-200 (more for seniors - twice yearly)\n• **Vaccinations**: Core vaccines annually or per vet recommendation\n• **Dental cleaning**: $300 every 2 years\n• **Parasite prevention**: Monthly flea, tick, and heartworm medication\n• **Blood work**: Annually for seniors to catch issues early\n\nSkipping preventative care often leads to expensive emergency situations. A $200 annual exam can prevent a $5,000 emergency.",
           },
           {
             id: "quality-nutrition",
             title: "Invest in quality nutrition",
             description: "Good food prevents expensive health problems long-term.",
             details:
-              "Don't cheap out on pet food:\n\n• **Quality matters**: Better food means better health, fewer vet visits, smaller portions needed\n• **Life stage appropriate**: Puppy/kitten, adult, senior formulas have different needs\n• **Avoid bargain brands**: Often contain fillers, lower-quality protein, insufficient nutrients\n• **Special diets**: Some pets need prescription food for allergies, sensitivities, or health conditions ($50-100/month)\n\nSpending an extra $20-30/month on quality food can save thousands in future health problems.",
+              "Don't cheap out on pet food:\n\n• **Quality matters**: Better food means better health, fewer vet visits, smaller portions needed\n• **Life stage appropriate**: Puppy/kitten, adult, senior formulas have different needs\n• **Avoid bargain brands**: Often contain fillers, lower-quality protein, insufficient nutrients\n• **Special diets**: Some pets need prescription food for allergies, sensitivities, or health conditions ($50-100/month)",
           },
           {
             id: "training-socialization",
@@ -517,7 +517,7 @@ export const checklistData: Checklist[] = [
             title: "Provide adequate exercise and mental stimulation",
             description: "Bored, under-exercised pets develop expensive problems.",
             details:
-              "Physical and mental exercise prevents issues:\n\n• **Daily exercise**: Dogs need 30 minutes to 2 hours depending on breed/age\n• **Mental stimulation**: Puzzle toys, training, new experiences\n• **Consequences of insufficient exercise**: Destructive behavior, anxiety, obesity, expensive behavioral issues\n• **Cost-effective options**: Walking is free, DIY puzzle toys, rotate toy selection\n\nAn exercised, stimulated pet is a healthier, better-behaved pet with fewer vet bills.",
+              "Physical and mental exercise prevents issues:\n\n• **Daily exercise**: Dogs need 30 minutes to 2 hours depending on breed/age\n• **Mental stimulation**: Puzzle toys, training, new experiences\n• **Consequences of insufficient exercise**: Destructive behavior, anxiety, obesity, expensive behavioral issues\n• **Cost-effective options**: Walking is free, DIY puzzle toys, rotate toy selection",
           },
         ],
       },
@@ -539,31 +539,22 @@ export const checklistData: Checklist[] = [
             title: "Decide: Pet insurance or self-insure?",
             description: "Weigh the pros and cons carefully for your situation.",
             details:
-              "**Pet Insurance:**\n• **Cost**: $30-100/month depending on age, breed, coverage\n• **Pros**: Covers major emergencies (surgeries, cancer treatment, accidents), peace of mind, no need for large emergency fund\n• **Cons**: Monthly cost adds up ($360-1,200/year), many exclusions, pre-existing conditions not covered, deductibles and co-pays apply, premiums increase with age\n• **Best for**: Breeds prone to expensive conditions, owners without emergency fund\n\n**Self-Insurance (Investment Account):**\n• **Strategy**: Invest what insurance would cost in index funds\n• **Pros**: You keep unused money, investment growth, no claim denials, covers any pet need including end-of-life care\n• **Cons**: Requires discipline, need emergency fund first, early emergency could deplete fund\n• **Best for**: Multiple pets, healthy breeds, those with emergency fund\n\n**Hybrid approach**: Basic accident-only insurance ($15-30/month) + investment account for illness and routine care.",
+              "**Pet Insurance:**\n• **Cost**: $30-100/month depending on age, breed, coverage\n• **Pros**: Covers major emergencies (surgeries, cancer treatment, accidents), peace of mind, no need for large emergency fund\n• **Cons**: Monthly cost adds up ($360-1,200/year), many exclusions, pre-existing conditions not covered, deductibles and co-pays apply, premiums increase with age\n• **Best for**: Breeds prone to expensive conditions, owners without emergency fund\n\n**Self-Insurance ():**\n• **Strategy**: Save what insurance would cost in investments, according to your personal investment strategy.\n• **Pros**: You keep unused money, investment growth, no claim denials, covers any pet need including end-of-life care\n• **Cons**: Requires discipline, need emergency fund first, early emergency could deplete fund\n• **Best for**: Multiple pets, healthy breeds, those with emergency fund\n\n**Hybrid approach**: Basic accident-only insurance ($15-30/month) + investment account for illness and routine care.",
           },
           {
             id: "plan-end-of-life",
             title: "Plan for end-of-life expenses",
             description: "A difficult but necessary financial consideration.",
             details:
-              "End-of-life care costs can be significant:\n\n• **Senior pet care**: Increased vet visits, medications, special diets ($100-300/month)\n• **Chronic condition management**: Diabetes, kidney disease, cancer treatment ($200-500+/month)\n• **Quality of life assessment**: Balance cost with pet's comfort - euthanasia is sometimes the kindest option\n• **Euthanasia cost**: $50-300 at vet, $200-500 for at-home service\n• **Cremation**: $50-200 private, $30-50 communal\n• **Burial**: Free at home (if legal), $500-3,000 at pet cemetery\n\nHaving funds set aside allows you to make decisions based on your pet's needs, not financial constraints. This is one of your final gifts to a beloved companion.",
+              "End-of-life care costs can be significant:\n\n• **Senior pet care**: Increased vet visits, medications, special diets ($100-300/month)\n• **Chronic condition management**: Diabetes, kidney disease, cancer treatment ($200-500+/month)\n• **Quality of life assessment**: Balance cost with pet's comfort - euthanasia is sometimes the kindest option\n• **Euthanasia cost**: $50-300 at vet, $200-500 for at-home service\n• **Cremation**: $50-200 private, $30-50 communal\n• **Burial**: Free at home (if legal), $500-3,000 at pet cemetery",
           },
           {
             id: "consider-care-coverage",
-            title: "Plan for care if you can't",
+            title: "Plan for caring for your pet if you're unable",
             description: "Ensure your pet is cared for if something happens to you.",
             details:
               "Responsible pet ownership includes planning for contingencies:\n\n• **Pet guardian**: Designate someone to take your pet if you're unable to care for them\n• **Financial provision**: Consider leaving funds in your will for pet care\n• **Documentation**: Keep health records, care instructions, vet contacts accessible\n• **Pet trust**: For significant assets, legal pet trust ensures funds are used for pet care\n• **Emergency contacts**: Give trusted person keys and authorization to access your home for pet\n\nDiscuss plans with designated guardians and ensure they're willing and able to care for your pet.",
-            isOptional: true,
-          },
-          {
-            id: "budget-review",
-            title: "Review pet expenses regularly",
-            description: "Stay aware of actual costs and adjust as needed.",
-            details:
-              "Track and optimize pet spending:\n\n• **Monthly review**: Are you spending more than budgeted? Why?\n• **Annual assessment**: Calculate true annual cost including emergencies\n• **Cost reduction opportunities**: Bulk buying, generic medications, preventative care\n• **Quality vs. cost**: Don't sacrifice pet health to save money, but avoid unnecessary expenses\n• **Multiple pets**: Costs don't scale linearly - some expenses are per-pet (food, vet) while others are shared (toys, supplies)\n\nUnderstanding true costs helps you make informed decisions about future pets and care level.",
-            isOptional: true,
-          },
+          }
         ],
       },
     ],
