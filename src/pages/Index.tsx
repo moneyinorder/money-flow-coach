@@ -77,19 +77,6 @@ const Index = () => {
             </div>
           </section>
 
-          {/* Tools Section */}
-          <section>
-            <h2 className="text-3xl font-bold mb-6">Financial Tools</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-              <ToolCard
-                id="invest-vs-debt"
-                title="Invest vs Pay Down Debt"
-                description="Compare the financial outcomes of investing versus paying down debt aggressively"
-                icon={TrendingUp}
-                path="/calculator/invest-vs-debt"
-              />
-            </div>
-          </section>
         </div>
       </main>
     </div>
