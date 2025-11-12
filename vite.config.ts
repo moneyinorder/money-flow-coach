@@ -6,7 +6,7 @@ import { componentTagger } from "lovable-tagger";
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   server: {
-    base: "/moneyinorder.github.io/", // Add this line
+    base: "/", // Add this line
     host: "::",
     port: 8080,
   },
