@@ -39,7 +39,7 @@ const Index = () => {
             <ListChecks className="w-10 h-10 sm:w-12 sm:h-12 mr-2 sm:mr-3" />
           </div>
           <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 animate-slide-in-up">
-            Financial Checklists & Tools
+            Money, In Order
           </h1>
           <p className="text-base sm:text-lg md:text-xl opacity-90 px-4">
             Checklists to guide your journey and tools to help you make informed decisions
