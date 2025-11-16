@@ -131,7 +131,7 @@ const ChecklistPage = () => {
                 onClick={() => setShowKofi(!showKofi)}
                 variant="default"
                 className="mx-auto"
-                data-umami-event="Kofi button"
+                data-umami-event="kofi-button clicked"
               >
                 {showKofi ? "Hide" : "☕ Buy Me a Coffee"}
               </Button>
